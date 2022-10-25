@@ -29,3 +29,9 @@ The project is an application that simulates a blog.
 
 # How to start the application (via Maven command line):
 ``mvn spring-boot:run``
+
+# How to build the application (via Docker compose, command line):
+``sudo docker compose build``
+
+# How to build the application (via Docker compose, command line):
+``sudo docker compose up``
