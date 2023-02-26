@@ -154,12 +154,9 @@ main{
 }
 
 .new-article-button{
-  border:1.2px #707070 solid;
-  border-radius: 15px;
   font-family: 'Proxima Nova Rg', sans-serif;
   color: #CB849C;
-  font-weight: 700;
-  padding: 8px 5px;
+  font-weight: 700 !important;
 }
 
 .filter-button{
@@ -193,23 +190,20 @@ main{
   padding-left:22px;
 }
 
-.filter-search-button, .delete-filters-button {
+.button {
   border:1.2px #707070 solid;
   border-radius: 10px;
   padding:6px;
   font-weight: 500;
 }
 
-.filter-search-button{
+.confirm-yes, #filter-search{
   background-color:#cb849cd2;
   color: gray;
 }
 
-.delete-filters-button{
+.confirm-no, #delete-filters{
   color:#CB849C;
-}
-
-#delete-filters{
   margin-left: 10px;
 }
 
@@ -293,7 +287,7 @@ main{
 }
 
 .edit-button{
-  margin-right: 10px;
+  margin-left: 10px;
 }
 
 /* FOOTER */
