@@ -14,5 +14,7 @@ spring:
         - classpath:/HTML/home-page
         - classpath:/JS/home-page
         - classpath:/CSS/home-page
+        - classpath:/JS/home-page/filter
         - classpath:/JS/rest-api-caller
         - classpath:/JS/page-components-generator
+        - classpath:/JS/events
